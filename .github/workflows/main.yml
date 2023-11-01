@@ -23,7 +23,7 @@ jobs:
       - name: Commit Profile
         run: |
           git config --global user.name "l3m_h0c_r3d"
-          git config --global user.email "llamtruong365@gmail.com"
+          git config --global user.email "https://github.com/l3m-h0c-r3d/l3m_h0c_r3d"
           git add profile.md
           git commit -m "Update profile"
           git push
