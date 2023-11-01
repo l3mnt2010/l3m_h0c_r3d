@@ -1,4 +1,5 @@
 name: My Workflow
+
 on:
   push:
     branches:
@@ -22,8 +23,8 @@ jobs:
 
       - name: Commit Profile
         run: |
-          git config --global user.name "l3m_h0c_r3d"
-          git config --global user.email "https://github.com/l3m-h0c-r3d/l3m_h0c_r3d"
+          git config user.name "l3m_h0c_r3d"
+          git config user.email "l3m_h0c_r3d@example.com"
           git add profile.md
           git commit -m "Update profile"
           git push
