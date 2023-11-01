@@ -1,4 +1,4 @@
-name: My Workflow
+name: Workflow
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
 
       - name: Commit Profile
         run: |
-          git config user.name "l3m-h0c_r3d"
+          git config user.name "l3m-h0c-r3d"
           git config user.email "llamtruong365@gmail.com"
           git add profile.md
           git commit -m "Update profile"
